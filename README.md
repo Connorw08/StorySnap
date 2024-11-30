@@ -6,6 +6,9 @@ The StorySnap App allows users to use their creativity through pictures and stor
 ## Installation
 Clone this repository and use Android Studio. Then, launch the app using a virtual or remote device.
 
+## Usage
+https://www.youtube.com/shorts/NN2kZDg_pC8
+
 ## Features
 * Image Ccpture using Android's Image Capture activity
 * AI powered image tagging using Google Vision Cloud AI
