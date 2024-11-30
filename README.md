@@ -7,7 +7,7 @@ The StorySnap App allows users to use their creativity through pictures and stor
 Clone this repository and use Android Studio. Then, launch the app using a virtual or remote device.
 
 ## Usage
-[![Watch the video](https://www.youtube.com/embed/NN2kZDg_pC8?si=8OkHw8PXHsPGW0xn)
+[![Watch the video](https://img.youtube.com/vi/<NN2kZDg_pC8>/maxresdefault.jpg)](https://www.youtube.com/embed/NN2kZDg_pC8?si=8OkHw8PXHsPGW0xn)
 
 ## Features
 * Image Ccpture using Android's Image Capture activity
