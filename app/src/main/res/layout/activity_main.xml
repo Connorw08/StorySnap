@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f29ad8"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/photo_tagger_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="startPhoto"
+        android:backgroundTint="#f039b1"
+        android:fontFamily="@font/lobster"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Photo Tagger" />
+
+    <Button
+        android:id="@+id/sketch_tagger_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#f039b1"
+        android:fontFamily="@font/lobster"
+        android:onClick="startDraw"
+        android:text="Sketch Tagger"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/story_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#f039b1"
+        android:fontFamily="@font/lobster"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:onClick="startStory"
+        android:text="Story Teller" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/barbie" />
+
+</LinearLayout>
